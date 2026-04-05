@@ -44,7 +44,7 @@ This is a solution for the OWASP MSTG Crackme Level 3. The application verifies 
 
 Patched `MainActivity.smali` to bypass root detection:
 
-```smali
+
 
 \# Replaced dialog call with return-void
 
@@ -129,6 +129,16 @@ Anti-debug bypass: RET patch at function entry is highly effective
 
 
 XOR encoding: Secret data often stored encoded in .rodata
+
+
+<img width="880" height="292" alt="verifyLibs1" src="https://github.com/user-attachments/assets/e0cb41ab-349f-424f-9a3c-7d1b7abf7ae3" />
+<img width="943" height="212" alt="FUN" src="https://github.com/user-attachments/assets/acb9ac22-c891-4276-8f0f-081544a96272" />
+<img width="447" height="59" alt="ret" src="https://github.com/user-attachments/assets/3c00b3df-2a95-45ad-a8d9-34fe7b9c3287" />
+<img width="202" height="395" alt="mdp" src="https://github.com/user-attachments/assets/3f438552-264d-45b7-8e15-836808dd31ed" />
+<img width="178" height="293" alt="correctt" src="https://github.com/user-attachments/assets/812e9fe0-af38-4580-b27c-79dc777e8c3a" />
+
+
+
 
 
 
