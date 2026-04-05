@@ -1,0 +1,19 @@
+# Ghidra project files
+*.gpr
+*.rep
+*.prp
+
+# Temporary files
+*.tmp
+*.log
+
+# Android system files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Original APK (keep only patched version)
+UnCrackable-Level3.apk
